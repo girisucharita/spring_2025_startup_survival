@@ -1,11 +1,10 @@
----
-title: Startup Survival Rate Predictor 
-subtitle: The Erdos Institute Data Science Boot Camp (Spring 2025)
-author:
+# Startup Survival Rate Predictor 
+## The Erdos Institute Data Science Boot Camp (Spring 2025)
+### authors
   - Sucharita Giri  
   - Mohammad Rafiqul Islam  
   - Amina Kurbidaeva
----  
+
 
 **Project Overview:**  
 
