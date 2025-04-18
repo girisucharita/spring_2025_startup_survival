@@ -1,0 +1,7 @@
+Column,Data Type,Missing Values,Missing Percentage,Unique Values,Min,Max,Mean,Most Common Value,Most Common Count
+status,object,0,0.0,4,,,,operating,44388.0
+funding_rounds,float64,31898,61.80225912076415,14,1.0,14.0,1.8342886127314229,,
+funding_total_usd,float64,33482,64.87125336639994,6163,291.0,833952250.0000048,16212183.932767088,,
+milestones,float64,24957,48.354096836068436,9,1.0,9.0,1.4567076830732293,,
+relationships,float64,13470,26.098076066107378,143,1.0,1189.0,4.949217418661354,,
+age,float64,0,0.0,2036,0.0,114.0,9.399256582643906,,
