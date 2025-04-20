@@ -1,0 +1,45 @@
+Column,Data Type,Missing Values,Missing Percentage,Unique Values,Min,Max,Mean,Most Common Value,Most Common Count
+id,object,0,0.0,196553,,,,c:1,1.0
+Unnamed: 0.1,int64,0,0.0,196553,0.0,196552.0,98276.0,,
+entity_type,object,0,0.0,1,,,,Company,196553.0
+entity_id,int64,0,0.0,196553,1.0,286215.0,153006.22733308573,,
+parent_id,float64,196553,100.0,0,,,,,
+name,object,23,0.011701678427701433,196347,,,,L,8.0
+normalized_name,object,26,0.013227984309575534,195451,,,,l,9.0
+permalink,object,0,0.0,196512,,,,/company/bboescape,3.0
+category_code,object,73367,37.3268278784857,42,,,,software,17922.0
+status,object,0,0.0,4,,,,operating,183441.0
+founded_at,datetime64[ns],105326,53.58656443809049,6156,,,,2011-01-01 00:00:00,3748.0
+closed_at,datetime64[ns],193933,98.66702619649662,925,,,,2012-01-01 00:00:00,176.0
+domain,object,70008,35.617874059414,125498,,,,placeshilton.com,44.0
+homepage_url,object,70008,35.617874059414,125961,,,,http://www.dachisgroup.com,5.0
+twitter_username,object,115962,58.99782755796147,79571,,,,Goodman_UK,20.0
+logo_url,object,86443,43.97948644894761,110110,,,,http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/3601/3601v1-max-250x250.png,1.0
+logo_width,float64,86443,43.97948644894761,3325,1.0,18200.0,459.13268549632187,,
+logo_height,float64,86443,43.97948644894761,2128,1.0,9600.0,222.72891653800744,,
+short_description,object,189422,96.37197091878527,7126,,,,L,3.0
+description,object,104505,53.168865395084275,83696,,,,Garage Door Repair/Replacement,144.0
+overview,object,69582,35.40113862418788,126515,,,,We,40.0
+tag_list,object,115101,58.559777769863594,79133,,,,"garage-door-springs, broken-spring-repair--replacement, torsion-spring-extension-springs, garage-door-opener, garage-door-remote, garage-door-sensors, garage-door-replacement--installation",210.0
+country_code,object,108563,55.23344848463264,175,,,,USA,51637.0
+state_code,object,145650,74.10215056498755,51,,,,CA,16489.0
+city,object,112663,57.31939985652724,10652,,,,New York,3816.0
+region,object,0,0.0,5847,,,,unknown,109866.0
+first_investment_at,datetime64[ns],193970,98.6858506357064,1197,,,,2009-01-01 00:00:00,33.0
+last_investment_at,datetime64[ns],193970,98.6858506357064,1105,,,,2012-01-01 00:00:00,33.0
+investment_rounds,float64,193962,98.68178048668807,41,1.0,478.0,2.3720571208027788,,
+invested_companies,float64,193962,98.68178048668807,37,1.0,459.0,2.20494017753763,,
+first_funding_at,datetime64[ns],165046,83.9702268599309,3208,,,,2008-01-01 00:00:00,343.0
+last_funding_at,datetime64[ns],165046,83.9702268599309,2978,,,,2012-01-01 00:00:00,272.0
+funding_rounds,float64,164846,83.86847313447264,15,1.0,15.0,1.6597596745198222,,
+funding_total_usd,float64,168679,85.81858328288044,9720,291.0,5700000000.0,14816520.421073401,,
+first_milestone_at,datetime64[ns],104854,53.34642564600897,4080,,,,2012-01-01 00:00:00,3152.0
+last_milestone_at,datetime64[ns],104854,53.34642564600897,3966,,,,2012-01-01 00:00:00,2937.0
+milestones,float64,104854,53.34642564600897,9,1.0,9.0,1.1994023926106065,,
+relationships,float64,66886,34.02949840501036,155,1.0,1189.0,2.8520672183361997,,
+created_by,object,41020,20.86968909149186,55329,,,,dhawalarco,10005.0
+created_at,datetime64[ns],0,0.0,182851,,,,2008-02-16 00:00:05,9.0
+updated_at,datetime64[ns],0,0.0,183558,,,,2012-11-04 00:27:06,8.0
+lat,float64,112701,57.33873306436432,7962,-50.9423262,77.553604,37.56451227111697,,
+lng,float64,112701,57.33873306436432,7954,-159.4977455,176.2125487,-52.123066050611804,,
+ROI,float64,195827,99.63063397658647,657,0.0111111111111,13333.3333333,45.745037136209085,,
