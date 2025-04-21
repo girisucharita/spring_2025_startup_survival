@@ -9,6 +9,7 @@
 - [Data](#data)
 - [Modeling](#modeling)
 - [Conclusions](#conclusions)
+- [Description of Repository](#description-of-repository)
  
 In this project, we use machine learning to predict the success rate of startups based on historical data. We identify key business features and build a predictive model to help stakeholders make informed, strategic decisions.
 ### Introduction
@@ -128,6 +129,32 @@ This suggests that regional context matters significantly in startup success pre
 
 ### Conclusions
 
-The results indicate that predicting startup success is challenging even with sophisticated machine learning approaches. While models can achieve reasonable accuracy (~70%), they struggle with identifying successful startups (low recall) without generating many false positives (maintaining precision).
+This project demonstrated the potential of machine learning to support startup success prediction by leveraging historical business data. Among the models tested, k-Nearest Neighbors (kNN) achieved the highest F1 score, offering the best balance between precision and recall despite the inherent class imbalance of the dataset.
 
-Depending on the specific business requirements and the relative importance of precision vs. recall, different models might be preferred. For applications where missing successful startups is costly, KNN might be more appropriate despite its lower accuracy. For applications where false positives are more problematic, Gradient Boosting or Logistic Regression would be better choices.
+Additionally, restricting the analysis to USA-based startups improved logistic regression model performance, emphasizing the significance of regional ecosystem characteristics in shaping startup outcomes. Defining success using a composite metric — which incorporated both company status and age — not only provided a more nuanced view of startup performance but also helped to partially address the class imbalance problem by creating a more balanced target variable.
+
+One of the key findings was the strong predictive power of the ‘Relationships’ feature, reinforcing the crucial role of network connections in a startup’s path to success. Despite these promising insights, class imbalance remained a major challenge across all models, limiting their ability to consistently detect successful startups.
+
+Looking ahead, future work could explore advanced techniques for handling imbalanced data, such as SMOTE, cost-sensitive learning, or anomaly detection framing. Expanding the feature set with richer contextual data — including market conditions, investor profiles, and competitive landscape — could further improve prediction accuracy. Finally, region-specific models and causal inference approaches might help refine both prediction and understanding of startup success factors, ultimately offering more actionable insights for entrepreneurs and investors.
+
+### Description of Repository
+
+- 1.EDA-raw-data:
+
+Contains exploratory data analysis of the initial dataset from all countries
+
+- 2.data-cleaning:
+
+Handles data preprocessing and cleaning procedures
+
+- 3.EDA-USA-companies:
+
+Exploratory analysis on USA-specific data
+
+- 4.define-success-metrics:
+
+Defines and implements two approaches to success classification
+
+- 5.modeling:
+
+Implements and evaluates various machine learning models
