@@ -1,4 +1,4 @@
-# Startup Survival Rate Prediction
+# Startup Survival Rate Predictor
 ## The Erdos Institute Data Science Boot Camp (Spring 2025)
 ### Authors
   - Sucharita Giri   
