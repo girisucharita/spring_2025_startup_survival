@@ -4,6 +4,15 @@
   - Sucharita Giri   
   - Amina Kurbidaeva
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Data](#data)
+- [Modeling](#modeling)
+- [Usage](#usage)
+- [Data Description](#data-description)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
 **Project Overview:**  
 
